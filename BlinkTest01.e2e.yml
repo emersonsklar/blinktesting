@@ -1,0 +1,20 @@
+---
+- test : Arm blink
+- ask blink to arm: I've asked your Bespoken system to arm
+- ask blink to get my status: Here's your Blink status Bespoken system is armed mini blink cam camera is enabled
+- ask blink to get my detailed status: here's your Blink status Bespoken system is armed mini blink cam camera is enabled
+
+---
+- test: Disarm blink
+- ask blink to disarm, my pin is 5 8 1 4: I've asked your Bespoken system to disarm
+- ask blink to get my status: here's your Blink status Bespoken system is disarmed mini blink cam camera is enabled
+- ask blink to get my detailed status: here's your Blink status Bespoken system is disarmed mini blink cam camera is enabled
+
+---
+- test: Live view
+- show me mini blink cam: OK #Returns "sorry cameras don't work on this device". This step this fails on physical device (says can't find the cam)
+- hide my mini blink cam
+
+---
+- test: view last clip
+- show me the last activity on mini blink cam: Searching clips #Returns "sorry cameras don't work on this device". This step this fails on physical device (says can't find clips for the requested camera)

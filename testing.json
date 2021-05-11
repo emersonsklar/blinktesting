@@ -1,0 +1,17 @@
+{
+	"type": "e2e",
+	"maxAsyncE2EResponseWaitTime": 300000,
+	"asyncMode": true,
+	"locale": "en-US",
+	"voiceId": "Joey-neural",
+	"platform": "alexa",
+	"lenientMode": true,
+	"virtualDeviceToken": "alexa-0b8bf83b-55b3-4c90-9b40-e45237f3d6a9",
+	"trace": true,
+    "debug": true,
+	"sequential": true,
+	"homophones": {
+		"your Bespoken":["you to spoken"],
+		"Blink":["blank"]
+	}
+}
