@@ -11,7 +11,8 @@
     "debug": true,
 	"sequential": true,
 	"homophones": {
-		"your Bespoken":["you to spoken"],
-		"Blink":["blank"]
+		"your Bespoken":["you to spoken", "the spoken"],
+		"Blink":["blank"],
+		"mini blink": ["many blink"]
 	}
 }
